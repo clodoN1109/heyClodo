@@ -3737,12 +3737,16 @@ td.visible-print, th.visible-print {
         color: #62807a;
     }
 
-    .carreira-table{
-
-        visibility: collapse;
+/* Issue001 not so elegant way of solving page responsiveness issue*/
+    .carreira-table {          
+        visibility: hidden;
         height: 0;
-
+        width: 0;
+        font-size: 0; 
     }
+/* Issue001 not so elegant way of solving page responsiveness issue*/
+
+
 
 }
 
